@@ -1,0 +1,11 @@
+
+This project contains Google's Protocol Buffer support for Objective-C
+structured for use with Nu.
+
+It is highly experimental and may disappear.
+
+For the authoritative version of this code, see 
+[protocolbuffers/protobuf/objectivec](https://github.com/protocolbuffers/protobuf/tree/master/objectivec).
+
+Unless otherwise noted, all source files are copyright Google LLC.
+
