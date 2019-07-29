@@ -38,7 +38,7 @@
 // so anyone that hasn't regenerated says building by having this. After
 // enough time has passed, this likely can be removed as folks should have
 // regenerated.
-#import <libkern/OSAtomic.h>
+//#import <libkern/OSAtomic.h>
 
 #import "GPBBootstrap.h"
 

@@ -13,7 +13,7 @@
               (set @arch (list "x86_64"))
               (set gnustep_flags ((NSString stringWithShellCommand:"gnustep-config --objc-flags") chomp))
               (set gnustep_libs ((NSString stringWithShellCommand:"gnustep-config --base-libs") chomp))
-              (set @cflags "-g -fobjc-nonfragile-abi -fobjc-arc -DLINUX -I/usr/local/include #{gnustep_flags}")
+              (set @cflags "-Iobjc -g -fobjc-nonfragile-abi -fblocks -fno-objc-arc -DCFMutableDictionaryRef='NSMutableDictionary *' -DLINUX -DFloat64='_Float64' -DFloat32='_Float32' -DCF_EXTERN_C_BEGIN='' -DCF_EXTERN_C_END='' -DNS_NOESCAPE='' -D__nullable='_Nullable' -D__nonnull='' -DPAGE_SIZE=4096 -DCFStringRef='NSString *' -DkCFStringEncodingUTF8='NSUTF8StringEncoding' -I/usr/local/include #{gnustep_flags}")
               (set @ldflags "#{gnustep_libs} -lNu"))
       (else nil))
 

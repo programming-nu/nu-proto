@@ -30,7 +30,7 @@
 
 #import "GPBCodedOutputStream_PackagePrivate.h"
 
-#import <mach/vm_param.h>
+// #import <mach/vm_param.h>
 
 #import "GPBArray.h"
 #import "GPBUnknownFieldSet_PackagePrivate.h"
